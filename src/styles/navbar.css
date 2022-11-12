@@ -1,0 +1,15 @@
+.navbar--link {
+  display: flex;
+  top: 25%;
+  bottom: 25%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  align-items: flex-end;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FF6060;
+}/*# sourceMappingURL=navbar.css.map */

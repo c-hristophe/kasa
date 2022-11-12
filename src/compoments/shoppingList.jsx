@@ -1,8 +1,8 @@
 import React from "react";
 import list from '../datas/list.json'
-import '../styles/home.css'
+import '../styles/shoppingList.css'
 
-function Home() {
+function ShoppingList() {
     return (
         <div className="thumb">
             {list.map((list) => (
@@ -18,4 +18,4 @@ function Home() {
     )
 }
 
-export default Home
+export default ShoppingList
