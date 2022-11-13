@@ -1,36 +1,25 @@
-//react Framework
 import React from "react";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate,
+
 } from "react-router-dom";
-
-//style by Sass Partials
 import "./main.css";
-
-//pages by React BrowserRouter
 import Home from "./pages/Home";
-import About from "./pages/About";
-
-
-//components Header && Footer
-
+import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
+import Banner from "./compoments/Banner";
 
 function App() {
   return (
     <div>
       <div className="App">
         <Router>
-          
+        <Navbar />
+        <Banner />
           <Routes>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            
-            <Route path="/kaza" element={<Navigate to="/" replace />} />
-            
           </Routes>
           <Footer />
         </Router>

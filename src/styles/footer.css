@@ -1,0 +1,12 @@
+.footer {
+  background-color: black;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.footer__text {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}/*# sourceMappingURL=footer.css.map */

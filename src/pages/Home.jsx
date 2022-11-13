@@ -4,16 +4,16 @@ import '../styles/home.css'
 
 function Home() {
     return (
-        <div className="thumb">
+    
+        <div className="card">
             {list.map((list) => (
-                <div>
-                <img src={list.cover} alt="" className="thumb__img" />
-                
-                <h2 className="thumb__title">{list.title}</h2>
+                <div class= "thumb">
+                <img className= "thumb--img" src={list.cover} alt="" />
+                <h2 className="thumb--title">{list.title}</h2>
                 </div>
             ))}
         </div>
-
+   
 
     )
 }

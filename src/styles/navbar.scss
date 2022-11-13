@@ -1,20 +1,43 @@
-.navbar--link {
-    
-display: flex;  
-top: 25%;
-bottom: 25%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 142.6%;
-align-items: flex-end;
-text-align: right;
-text-decoration-line: underline;
-color: #FF6060;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    padding-top: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+  
+  
+    &__link {
+     display: flex;
+     width: 15%;
+     justify-content: space-around;
+     font-size: 25px;
+        
+  
+      }
+    }
+  
+  .nav__link {
 
-}
-
-
-
-
+     
+        width: 50%;
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-weight: 500;
+        text-decoration: underline;
+        
+           
+        
+          
+          &:focus {
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+          
+          
+      }
+  
+  
+ 
