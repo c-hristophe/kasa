@@ -9,6 +9,7 @@ import "./main.css";
 import Home from "./pages/Home";
 import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
+import About from "./pages/About";
 
 import Singleproduct from "./pages/SingleProduct";
 
@@ -21,6 +22,7 @@ function App() {
         
           <Routes>
             <Route index element={<Home />} />
+            <Route index element={<About />} />
             <Route path="products/:productId" element={<Singleproduct />} />
           </Routes>
           <Footer />

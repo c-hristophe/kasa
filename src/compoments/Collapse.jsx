@@ -1,17 +1,22 @@
 import React from "react";
+import '../styles/collapse.css';
 
 const Collapse = ({ title, content }) => {
   const isCollapse = (e) => {
-    e.preventDefault();
+   
     const divText = e.target.nextSibling;
     const arrow = e.target.lastChild;
+    
+    e.preventDefault();
 
     if (!divText.classList.contains("show")) {
       divText.classList.add("show");
       arrow.classList.add("rotate");
+     
     } else {
       divText.classList.remove("show");
       arrow.classList.remove("rotate");
+      
     }
   };
   return (

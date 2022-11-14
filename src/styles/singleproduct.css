@@ -1,15 +1,32 @@
 .singleproduct {
   font-family: "Helvetica Neue", sans-serif;
   color: #FF6060;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.singleproduct__content {
+  display: flex;
+  justify-content: space-between;
+}
+.singleproduct__informations {
+  display: block;
 }
 .singleproduct__title {
-  margin-left: 180px;
+  margin-left: 0px;
 }
 .singleproduct__location {
-  margin-left: 180px;
+  margin-left: 0px;
 }
 .singleproduct__tags {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 180px;
+  padding-left: 0px;
+}
+.singleproduct__dropdowns {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.singleproduct__rating-and-host {
+  margin-right: 0px;
 }/*# sourceMappingURL=singleproduct.css.map */

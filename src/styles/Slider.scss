@@ -1,13 +1,14 @@
 .slider {
     position: relative;
     margin-bottom: 50px;
-    width: 76%;
+    width: 100%;
     text-align: center;
     margin: auto;
+ 
   
     &__active-picture {
       height: 300px;
-      width: 90%;
+      width: 100%;
       text-align: center;
     }
   
