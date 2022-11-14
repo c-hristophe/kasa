@@ -1,0 +1,15 @@
+.singleproduct {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #FF6060;
+}
+.singleproduct__title {
+  margin-left: 180px;
+}
+.singleproduct__location {
+  margin-left: 180px;
+}
+.singleproduct__tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 180px;
+}/*# sourceMappingURL=singleproduct.css.map */

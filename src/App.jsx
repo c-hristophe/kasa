@@ -9,7 +9,8 @@ import "./main.css";
 import Home from "./pages/Home";
 import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
-import Banner from "./compoments/Banner";
+
+import Singleproduct from "./pages/SingleProduct";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <div className="App">
         <Router>
         <Navbar />
-        <Banner />
+        
           <Routes>
             <Route index element={<Home />} />
+            <Route path="products/:productId" element={<Singleproduct />} />
           </Routes>
           <Footer />
         </Router>

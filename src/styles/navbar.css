@@ -1,4 +1,6 @@
 .navbar {
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,14 +10,14 @@
 }
 .navbar__link {
   display: flex;
-  width: 15%;
+  width: 20%;
   justify-content: space-around;
   font-size: 25px;
 }
 
 .nav__link {
   width: 50%;
-  color: red;
+  color: #FF6060;
   display: flex;
   align-items: center;
   justify-content: flex-end;
