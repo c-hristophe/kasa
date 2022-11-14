@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .collapse {
     
    
     color: white;
     margin-bottom: 20px;
     width: 48%;
+    font-family: 'Montserrat';
     
   
    
@@ -13,6 +15,7 @@
       width: 100%;
       border: none;
       border-radius: 5px;
+      font-size: 18px;
       background-color: #FF6060;;
       display: flex;
       justify-content: space-between;
@@ -29,14 +32,9 @@
     &__arrow {
       margin-right: 10px;
       pointer-events: none;
-      transform: rotate(90deg);
+      transform: rotate(-90deg);
       transition: transform 300ms;
-     
-      
       font-size: 20px;
-     
-  
-      
     }
   
     &__content {
@@ -49,21 +47,21 @@
       transition: max-height 250ms ease-out, padding 300ms ease-out;
       overflow: hidden;
       padding-left: 12px;
-      
       flex: 1;
      
       
     }
     &__text {
       margin: 0;
-      font-size: 12px;
+      font-size: 20px;
       
     }
     &__list {
       list-style: none;
       padding: 0;
       margin: 0;
-      font-size: 12px;
+      font-size: 18px;
+      font-family: "Montserrat";
       
     }
     &__list-element {
@@ -71,7 +69,7 @@
     }
   }
   .rotate {
-    transform: rotate(270deg);
+    transform: rotate(90deg);
   }
   .show {
     max-height: 500px;

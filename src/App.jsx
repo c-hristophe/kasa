@@ -22,7 +22,7 @@ function App() {
         
           <Routes>
             <Route index element={<Home />} />
-            <Route index element={<About />} />
+            <Route path="about" element={<About />} />
             <Route path="products/:productId" element={<Singleproduct />} />
           </Routes>
           <Footer />

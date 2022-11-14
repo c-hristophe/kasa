@@ -1,6 +1,6 @@
 .navbar {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 .navbar__link {
   display: flex;
-  width: 20%;
+  width: 30%;
   justify-content: space-around;
   font-size: 25px;
 }

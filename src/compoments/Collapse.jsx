@@ -6,7 +6,7 @@ const Collapse = ({ title, content }) => {
    
     const divText = e.target.nextSibling;
     const arrow = e.target.lastChild;
-    
+
     e.preventDefault();
 
     if (!divText.classList.contains("show")) {
@@ -24,7 +24,7 @@ const Collapse = ({ title, content }) => {
       <button type="button" className="collapse__button" onClick={isCollapse}>
         {title}
 
-        <p className="collapse__arrow">&lt;</p>
+        <p className="collapse__arrow">&#10094;</p>
       </button>
       <div className="collapse__content">
         {Array.isArray(content) ? (

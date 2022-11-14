@@ -16,6 +16,9 @@
   transform: scale(1.5);
   box-sizing: inherit;
 }
+.thumb--img:hover {
+  filter: brightness(80%);
+}
 .thumb--title {
   position: absolute;
   bottom: 0px;
@@ -60,4 +63,4 @@
   height: 100%;
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=Home.css.map */

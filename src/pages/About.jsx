@@ -1,21 +1,22 @@
 import React from "react";
 import Banner from "../compoments/Banner";
-import list from '../datas/list.json'
+import aboutData from '../datas/aboutData'
 import Collapse from "../compoments/Collapse";
 import imageBanner from "../images/banner1.png";
+import '../styles/about.css'
 
 const About = () => {
  
   const content = (title) => {
     switch (title) {
       case "fiability":
-        return list.fiability;
+        return aboutData.fiability;
       case "respect":
-        return list.respect;
+        return aboutData.respect;
       case "service":
-        return list.service;
+        return aboutData.service;
       case "sécurity":
-        return list.security;
+        return aboutData.security;
       default:
         console.log("default");
         break;

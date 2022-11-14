@@ -3,13 +3,13 @@ import list from '../datas/list.json'
 import '../styles/home.css'
 import Banner from "../compoments/Banner";
 import { Link } from "react-router-dom";
-
+import imageBanner from "../images/banner.png";
 
 
 function Home() {
     return (
         <div className="App">
-            <Banner />
+            <Banner image={imageBanner} text="Chez vous, partout et ailleurs" />
 
         <div className="card">
             

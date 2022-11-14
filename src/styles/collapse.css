@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .collapse {
   color: white;
   margin-bottom: 20px;
   width: 48%;
+  font-family: "Montserrat";
 }
 .collapse__button {
   color: rgb(241, 232, 232);
   width: 100%;
   border: none;
   border-radius: 5px;
+  font-size: 18px;
   background-color: #FF6060;
   display: flex;
   justify-content: space-between;
@@ -21,7 +24,7 @@
 .collapse__arrow {
   margin-right: 10px;
   pointer-events: none;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   transition: transform 300ms;
   font-size: 20px;
 }
@@ -39,20 +42,21 @@
 }
 .collapse__text {
   margin: 0;
-  font-size: 12px;
+  font-size: 20px;
 }
 .collapse__list {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 18px;
+  font-family: "Montserrat";
 }
 .collapse__list-element {
   margin-bottom: 3px;
 }
 
 .rotate {
-  transform: rotate(270deg);
+  transform: rotate(90deg);
 }
 
 .show {

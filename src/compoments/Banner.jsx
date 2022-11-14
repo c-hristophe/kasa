@@ -1,19 +1,14 @@
 import React from "react";
 import '../styles/Banner.css';
-import image from "../images/banner.png";
 
-
-function Banner() {
-  
-
+const Banner = ({ image, text }) => {
   return (
     <div className="banner">
-      <img className="banner__img"src={image} alt=""/>
-      <p className="banner__text">
-        Chez nous, partout et ailleurs
-      </p>
+      <img src={image} alt="" className="banner__img" />
+      
+      {text ? <h1 className="banner__text">{text}</h1> : null}
     </div>
   );
-}
+};
 
 export default Banner;

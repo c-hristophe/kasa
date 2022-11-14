@@ -9,11 +9,10 @@
 
   &__text {
     position: relative;
-    bottom: 180px;
+    bottom: 80%;
     right: 0px;
     font-size: 40px;
     font-weight: 500;
-    
     color: white;
     box-sizing: inherit;
     
@@ -22,7 +21,7 @@
 
   &__img {
     position: relative;
-    width: 76%;
+    width: 90%;
     border-radius: 10px;
     filter: brightness(70%);
 }

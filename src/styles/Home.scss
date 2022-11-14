@@ -1,3 +1,4 @@
+
 .thumb {
  
   width: 320px;
@@ -16,6 +17,9 @@
     border-radius: inherit;
     transform: scale(1.5);
     box-sizing: inherit;
+    &:hover {
+      filter: brightness(80%);
+    }
   }
 
   &--title {
