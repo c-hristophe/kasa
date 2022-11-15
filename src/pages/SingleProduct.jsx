@@ -7,13 +7,19 @@ import Slider from "../compoments/Slider";
 import Collapse from "../compoments/Collapse";
 import Host from "../compoments/Host";
 import Rating from "../compoments/Rating";
+import { useEffect } from 'react'
 
 const SingleProduct = () => {
   const { productId } = useParams();
   const product = list.find((product) => product.id === productId);
   const { equipments, description, title, location, pictures, rating, host } = product;
 
+  useEffect(() => {
+		document.title = `${title}`
+	}, [title])
+  
   return (
+    
     <div className="singleproduct">
       <Slider slides={pictures} />
       <div className="singleproduct__content">

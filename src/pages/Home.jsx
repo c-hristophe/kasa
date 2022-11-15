@@ -8,6 +8,7 @@ import imageBanner from "../images/banner.png";
 
 function Home() {
     return (
+        
         <div className="App">
             <Banner image={imageBanner} text="Chez vous, partout et ailleurs" />
 

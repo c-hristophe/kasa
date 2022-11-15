@@ -11,16 +11,16 @@ import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
 import About from "./pages/About";
 import PageNotFound from "./pages/PageNotFound"
-
 import Singleproduct from "./pages/SingleProduct";
 
 function App() {
   return (
+    
     <div>
+      
       <div className="App">
         <Router>
         <Navbar />
-        
           <Routes>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
