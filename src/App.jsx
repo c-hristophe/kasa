@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
 import About from "./pages/About";
+import PageNotFound from "./pages/PageNotFound"
 
 import Singleproduct from "./pages/SingleProduct";
 
@@ -24,6 +25,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="products/:productId" element={<Singleproduct />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
           <Footer />
         </Router>

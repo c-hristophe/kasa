@@ -1,8 +1,9 @@
 .singleproduct {
   font-family: "Helvetica Neue", sans-serif;
   color: #FF6060;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 81%;
 }
 .singleproduct__content {
   display: flex;
@@ -28,5 +29,30 @@
   padding-left: 0px;
 }
 .singleproduct__rating-and-host {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
   margin-right: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .singleproduct__dropdowns {
+    display: flex;
+    flex-direction: column;
+  }
+  .singleproduct__tags {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+  }
+  .singleproduct__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .singleproduct__rating-and-host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=singleproduct.css.map */

@@ -85,4 +85,9 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+@media screen and (max-width: 800px) {
+  .collapse {
+    width: 100%;
+  }
 }/*# sourceMappingURL=collapse.css.map */

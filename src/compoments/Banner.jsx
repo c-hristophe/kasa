@@ -6,7 +6,7 @@ const Banner = ({ image, text }) => {
     <div className="banner">
       <img src={image} alt="" className="banner__img" />
       
-      {text ? <h1 className="banner__text">{text}</h1> : null}
+      {text ? <h1 className="banner__img__text">{text}</h1> : null}
     </div>
   );
 };

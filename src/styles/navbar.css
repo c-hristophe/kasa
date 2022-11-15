@@ -1,26 +1,25 @@
 .navbar {
-  padding-left: 4%;
-  padding-right: 4%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2%;
-  padding-top: 18px;
   font-family: "Helvetica Neue", sans-serif;
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
 }
 .navbar__link {
   display: flex;
-  width: 30%;
-  justify-content: space-around;
-  font-size: 25px;
+  max-width: 100%;
+  justify-content: space-between;
+  font-size: 23px;
 }
 
 .nav__link {
-  width: 50%;
+  display: flex;
+  max-width: 30%;
   color: #FF6060;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   font-weight: 500;
   text-decoration: underline;
 }

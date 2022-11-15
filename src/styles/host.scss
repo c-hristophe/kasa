@@ -3,7 +3,10 @@
     justify-content: flex-end ;
     width: min-content;
     margin-top: 20px;
-    padding-left: 50px;
+    margin-left: 40px;
+    padding-left: -10px;
+    
+   
     
   
     &__name {
@@ -21,6 +24,13 @@
       height: 50px;
       width: 50px;
       text-align: right;
+      align-items: flex-end;
       
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .host {
+        margin-left: 0px;
     }
   }

@@ -26,8 +26,9 @@
       position: absolute;
       top: 0;
       height: 100%;
-      
+      max-width: 100%;
       display: flex;
+      justify-content: space-between;
       align-items: center;
     }
   
@@ -36,10 +37,10 @@
     }
   
     &__next-icon {
-      margin-right: 90px;
+      margin-right: 0px;
     }
     &__previous-icon {
-      margin-left: 90px;
+      margin-left: 0px;
     }
   
     &__next-icon,
