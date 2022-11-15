@@ -4,6 +4,7 @@ import aboutData from '../datas/aboutData'
 import Collapse from "../compoments/Collapse";
 import imageBanner from "../images/banner1.png";
 import '../styles/about.css'
+import { useEffect } from 'react'
 
 const About = () => {
  
@@ -22,7 +23,10 @@ const About = () => {
         break;
     }
   };
-
+  const title= "Les engagements de KASA"
+  useEffect(() => {
+  document.title = `${title}`
+}, [])
   return (
     <div className="about">
       <Banner image={imageBanner} />

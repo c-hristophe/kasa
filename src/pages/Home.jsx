@@ -4,9 +4,13 @@ import '../styles/home.css'
 import Banner from "../compoments/Banner";
 import { Link } from "react-router-dom";
 import imageBanner from "../images/banner.png";
-
+import { useEffect } from 'react'
 
 function Home() {
+    const title= "Trouvez votre appartement"
+    useEffect(() => {
+		document.title = `${title}`
+	}, [])
     return (
         
         <div className="App">

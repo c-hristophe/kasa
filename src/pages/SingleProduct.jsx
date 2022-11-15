@@ -16,8 +16,8 @@ const SingleProduct = () => {
 
   useEffect(() => {
 		document.title = `${title}`
-	}, [title])
-  
+	}, [])
+
   return (
     
     <div className="singleproduct">
